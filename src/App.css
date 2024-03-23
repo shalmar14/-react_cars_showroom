@@ -1,0 +1,156 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 0 0 0;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+}
+
+.logo-zilla {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 19px;
+
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .zilla-title {
+    color: rgba(5, 153, 222, 1);
+    width: 1000px;
+    height: 96px;
+    font-size: 80px;
+  }
+
+}
+
+.top-bar {
+  box-shadow: 0px 4px 18px 0px rgba(75, 70, 92, 0.1);
+  background: rgba(255, 255, 255, 1);
+  height: 182px;
+  padding: 16px;
+  border-radius: 6px;
+
+  .text {
+    color: rgba(5, 153, 222, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .search-container {
+    height: 50px;
+    box-shadow: 0px 4px 18px 0px rgba(75, 70, 92, 0.1);
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  input {
+    border: none;
+    width: 100%;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .list-car {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+  }
+
+  select {
+    width: 210px;
+    height: 48px;
+    box-shadow: 0px 4px 18px 0px rgba(75, 70, 92, 0.1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    border-style: groove;
+  }
+
+  i {
+    cursor: pointer;
+  }
+
+
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background: rgba(255, 255, 255, 1);
+  gap: 55px;
+  width: 100%;
+
+  h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  img {
+    width: 250px;
+    height: 200px;
+  }
+
+
+  .card {
+    padding: 0px;
+    box-shadow: 0px 4px 18px 0px rgba(75, 70, 92, 0.1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+  }
+
+  .info-car {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    gap: 20px;
+  }
+
+  .detail-car {
+    margin-bottom: -5px;
+  }
+
+  .button-detail {
+    padding-bottom: 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    width: 118px;
+    height: 28px;
+    border-radius: 4px;
+    background: rgba(5, 153, 222, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
+
+
+  .car-brand {
+    height: 28px;
+  }
+
+
+
+}
